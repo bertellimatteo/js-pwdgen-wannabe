@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="./asset/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+  <body>
     <div class="container">
+      <h2>genera qui la tua password</h2>
+      <div>
+        <input type="text" id="firstName" placeholder="inserisci il tuo nome" />
+      </div>
 
-        <h2>genera qui la tua password</h2>
-        <div>
-          <input type="text" id="firstName" placeholder="inserisci il tuo nome">
-        </div>
+      <div>
+        <input
+          type="text"
+          id="lastName"
+          placeholder="inserisci il tuo cognome"
+        />
+      </div>
 
-        <div>
-          <input type="text" id="lastName" placeholder="inserisci il tuo cognome">
-        </div>
+      <div>
+        <input
+          type="text"
+          id="favoriteColor"
+          placeholder="inserisci il tuo colore preferito"
+        />
+      </div>
 
-        <div>
-          <input type="text" id="favoriteColor" placeholder="inserisci il tuo colore preferito">
-        </div>
-      
-        <button onclick="generaPassword()">Genera Password</button>
+      <button onclick="generaPassword()">Genera Password</button>
 
-        <div>
-          <p id="password"></p>
-        </div>
+      <div>
+        <p id="password"></p>
+      </div>
     </div>
 
     <script src="./asset/javascript/script.js"></script>
-</body>
+  </body>
 </html>
