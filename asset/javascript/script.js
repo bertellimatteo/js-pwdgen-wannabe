@@ -1,7 +1,7 @@
 function generaPassword() {
-    let nome = document.getElementById('firstName').value;
-    let cognome = document.getElementById('lastName').value;
-    let colore = document.getElementById('favoriteColor').value;
-    let password = nome + cognome + colore + '23';
+    let firstName = document.getElementById('firstName').value;
+    let lastName = document.getElementById('lastName').value;
+    let favoriteColor = document.getElementById('favoriteColor').value;
+    let password = firstName + lastName + favoriteColor + '23';
     document.getElementById('password').textContent = password;
 }
